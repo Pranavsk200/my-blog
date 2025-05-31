@@ -62,7 +62,7 @@ const Navbar = () => {
           >
             <ul
               className="
-              pt-4 text-black text-base
+              pt-4 text-black
               md:flex
               md:justify-between 
               md:pt-0"
