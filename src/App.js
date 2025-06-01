@@ -19,6 +19,7 @@ function App() {
       <AuthContextProvider>
         <Navbar />
         <Routes>
+          <Route path="my-blog/" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/education" element={<Education />} />
           <Route path="/music" element={<Music />} />
